@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    line-height: -0.5;
+    
+}
+
+header{
+    background-color:#177EA3;
+    margin: -8px;
+    padding: 1.375rem 1.125rem 1.125rem;
+    margin-bottom: 5px;
+}
+#principal{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:white ;
+}
+
+nav{
+    background-color:#177EA3;
+    padding: 3px;
+}
+nav >a {
+   text-decoration: none;
+   color:rgb(255, 255, 255);
+   font-weight: bold;
+   margin-right: 160px;
+   border-radius: 5px;
+   
+}
+
+nav >a:hover{
+    text-decoration: underline 2px white;
+    
+}
+main{
+   background-color: white;
+   font-family:Arial, Helvetica, sans-serif;
+   height: 1760px;
+    
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.685);
+    margin: -8px;
+    padding: 194px 406px 31px;
+    margin-top: 10px;
+}
+
+footer >p {
+    color: white;
+    }
+
+.container{
+    height:1040px ;
+    background-color:white;
+    margin-right: 200px;
+    width:1091px;
+}
+
+.listaconteudo{
+    display: inline-block;
+    background-color:white;
+    height: 1040px;
+    width: 100px;
+    margin-right: 0px;
+    min-width:18vw;
+    box-shadow:  2px 5px 8px -4px black;
+} 
+
+.sublista >a{
+    display: none;
+   }
+.sublista:hover > a{
+    display: block;
+    color:white;
+    background-color:#177EA3;
+    width: 200px;
+   }
+.sublista:hover{
+    color: #177EA3;
+   }
+.historia{
+    display: inline-block;
+    width: 785px;
+    
+    background-color:white;
+    text-align: justify;
+    min-width:40vw;
+    float:right;
+}
+
